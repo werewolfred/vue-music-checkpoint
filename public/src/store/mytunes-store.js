@@ -3,7 +3,7 @@ import vuex from 'vuex'
 import $ from 'jquery'
 
 var production = !window.location.host.includes('localhost');
-var baseUrl = production ? '//xxxxxx.herokuapp.com/api/playlist' : '//localhost:3000/api/playlist';
+var baseUrl = production ? '//vue-music-werewolfred.herokuapp.com/api/playlist' : '//localhost:3000/api/playlist';
 
 
 vue.use(vuex)
