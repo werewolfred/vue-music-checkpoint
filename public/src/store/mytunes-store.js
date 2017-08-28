@@ -58,9 +58,9 @@ var store = new vuex.Store({
     },
     addToMyTunes({ commit, dispatch }, track) {
       //this will post to your server adding a new track to your tunes
-       //$.post("//localhost:3000/api/music", song).then((res)=>{
+      //  $.post("//localhost:3000/api/music", song).then((res)=>{
        // $.post(baseUrl, song).then((res)=>{  
-      //dispatch('getMyTunes')
+      dispatch('getMyTunes')
       //})
       //.fail(data=>{
        // console.log(data)

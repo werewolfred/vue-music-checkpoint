@@ -18,5 +18,5 @@ server.listen(port, ()=>{
  console.log('Listening on port: ', port)
 })
 
-var playlistRouter = require('./routes/playlist')
-server.use('/api/playlist', playlistRouter)
+// var playlistRouter = require('./routes/playlist')
+// server.use('/api/playlist', playlistRouter)
