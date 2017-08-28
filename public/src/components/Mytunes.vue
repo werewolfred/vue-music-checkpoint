@@ -27,10 +27,10 @@
             </div>
             <div class="col-xs-12">
                 <h3>Preview: </h3>
-                <p>{{song.preview}}</p>
+                <p>{{song.previewUrl}}</p>
             </div>
             <div class="col-xs-12">
-                <button @:click="addToMyTunes(song)">Add to Mytunes</button>
+                <!-- <button @:click="addToMyTunes(song)">Add to Mytunes</button> -->
             </div>
         </div>
     </div>
